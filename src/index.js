@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
-
+import PrimerComponente from './componentes/PrimerComponente';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    
+    <PrimerComponente/>
   </React.StrictMode>,
   document.getElementById('root')
 );
